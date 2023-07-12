@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="huoguo-bg">
+  <view>
+    <view style="font-size:50rpx;color:#fff;display:flex;align-items: center;flex-direction: column;" >
+      <text>会员可以联系作者免费吃火锅</text>
+      <view><text>你目前还有</text><text style="font-size: 60rpx;color: #FFBA30">3</text>天的体验</view>
+    </view>
+    
+    <image class="pic1" mode="aspectFit" src="../../images/static/huoguo2.png" alt="" />
+    <button class="vip-btn" type="primary" loading="{{loading}}" disabled="{{disabled}}" bindtap="onTap">
+      成为终身会员
+    </button>
+    <text style='font-size:12px;margin-top:20px;display:block;color:#eee;text-align:center'>本活动最终解释权归作者所有</text>
+  </view>
+</view>

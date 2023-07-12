@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="bg">
+  <view wx:if="{{showMask}}" class="mask">
+    <video src="https://636c-cloud1-0g4s9hg9c00d1248-1319156392.tcb.qcloud.la/normal%20video.mp4?sign=9757c823e4d6c1b465ca825426768a00&t=1688609771" custom-cache="{{false}}" autoplay="{{true}}" controls="{{false}}"></video>
+    <view class="{{showMaskBtn ? 'vip-btn-ww': 'vip-btn-w'}}" style="padding: 0 80rpx"><button class="vip-btn" type="primary" bindtap="onStartTap">
+      开启
+    </button>
+    </view>
+  </view>
+  <view class="home-container">
+  <view class="userinfo">
+    <block>
+      <!-- <image  class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image> -->
+      <text class="userinfo-nickname">Hi！亲爱的</text>
+      <text class="intro">今天吃什么？</text>
+    </block>
+
+    
+  </view>
+   
+  <view class="usermotto">
+    <button bindtap="bindViewTap" class="try-btn">试试手气</button> 
+    <button bindtap="bindHuoGuo" class="huoguo-btn">吃火锅</button>
+    <text bindtap="bindOther" style='font-size:12px;margin-top:20px;display:block;color:#aaa;text-align:center'>还是不知道？点这里</text>
+   
+  </view>
+  <text style='font-size:12px;margin-top:40px;color:#aaa;text-align:center'>本程序由汉堡鸡肉卷鸡腿鸡翅倾情提供</text>
+</view>
+</view>

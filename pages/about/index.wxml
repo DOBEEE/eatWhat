@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="user-bg">
+   <view class="bg-img">
+    <image mode="aspectFill" src="../../images/static/me.jpg" alt="" />
+   </view>
+  <view class="mask"></view>
+  <view style="position:absolute;top:0;left:0;width:100%;height:100%;">
+    <view style="font-size:50rpx;color:#fff;display:flex;align-items: center;flex-direction: column;" >
+      <view class="pic-wrapper"><image mode="aspectFill" src="../../images/static/me.jpg" alt="" /></view>
+      
+      <text class="name">李国辉</text>
+      <text class="name-side">LIGUOHUI</text>
+      <text class="email">gh@ian7.com</text>
+      <text class="tit">资深胃口拿捏师、营业师</text>
+      <view class="desc">5年做菜经验，擅长家常菜，专为安琪私人定制，到他身边，你便拥有一位私人顶级大厨，圆你公主梦。还等什么，即刻买票出发吧~</view>
+    </view>
+    
+  </view>
+</view>

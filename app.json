@@ -1,0 +1,21 @@
+{
+  "pages":[
+    "pages/index/index",
+     "pages/user/index",
+     "pages/map/map",
+     "pages/about/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#DDD",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序提供服务使用"
+    }
+  },
+  "requiredPrivateInfos": ["getLocation"]
+}
